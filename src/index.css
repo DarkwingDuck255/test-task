@@ -1,0 +1,7 @@
+@import url(./vendor/fonts.css);
+@import url(./vendor/normalize.css);
+
+#root {
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(224, 247, 252, 0.583333) 25.87%, #CAF2FA 100%);
+}

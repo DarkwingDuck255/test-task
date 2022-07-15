@@ -1,0 +1,292 @@
+.test {
+  max-width: 1264px;
+  align-self: center;
+  margin: 0px auto;
+  font-family: 'Roboto', sans-serif;
+  color: #223867;
+}
+
+.test__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #223867;
+}
+
+.test__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+  text-align: center;
+  color: #223867;
+}
+
+.test__patient {
+  display: flex;
+  flex-direction: column;
+  max-width: 578px;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.test__patient-wrapper {
+  display: flex;
+  flex-direction: row;
+  max-width: 1192px;
+  width: 100%;
+}
+
+.test__patient-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #028CA6;
+}
+
+.test__patient-image {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  /* filter: drop-shadow(0px 4px 25px rgba(6, 140, 166, 0.25)); */
+  max-width: 300px;
+  width: 100%;
+}
+
+.test__patient-image_opacity {
+  display: flex;
+  position: absolute;
+  top: 140px;
+  left: 130px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+  height: 315px;
+  width: 315px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.test__patient-symptoms {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 420px;
+}
+
+.test__patient-symptom {
+  border: 2px solid #068CA6;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 27px;
+  box-shadow: 0px 4px 4px rgba(6, 140, 166, 0.31);
+  border-radius: 10px;
+  /* В макете даны не совсем понятные отступы от границ ячейки */
+  padding: 10px;
+}
+
+.test__images-circle {
+  width: 629px;
+  height: 638px;
+  margin: 116px auto 150px auto;
+  display: flex;
+  position: relative;
+  /* border-radius: 50%; */
+}
+
+.test__image-circle-group {
+  display: flex;
+  position: absolute;
+  max-width: 110px;
+  width: 100%;
+}
+
+.test__image-circle-group_one {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 246px;
+}
+
+.test__image-circle-group_two {
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  left: 246px;
+
+}
+
+.test__image-circle-group_three {
+  display: flex;
+  position: absolute;
+  top: 65px;
+  right: 99px;
+}
+
+.test__image-circle-group_four {
+  display: flex;
+  position: absolute;
+  top: 230px;
+  right: 50px;
+}
+
+.test__image-circle-group_five {
+  display: flex;
+  position: absolute;
+  bottom: 140px;
+  right: 108px;
+}
+
+.test__image-circle-group_six {
+  display: flex;
+  position: absolute;
+  bottom: 140px;
+  left: 50px;
+}
+
+.test__image-circle-group_seven {
+  display: flex;
+  position: absolute;
+  top: 230px;
+  left: 0px;
+}
+
+.test__image-circle-group_eight {
+  display: flex;
+  position: absolute;
+  top: 65px;
+  left: 50px;
+}
+
+.test__hint {
+  margin-left: 45px;
+  margin-top: 89px ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2A477D;
+}
+
+.test__extra-info {
+  margin-top: 89px ;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 21px;
+  color: #068CA6;
+}
+
+.test__image {
+  display: flex;
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  /* object-fit:fill; */
+}
+
+.test__image-plus {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+  left: -25px;
+  top: -20px;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+
+.test__image-description_one {
+  display: flex;
+  position: absolute;
+  top: -87px;
+  left: 257px;
+  visibility: hidden;
+}
+
+.test__image-description_five {
+  display: flex;
+  position: absolute;
+  bottom: -47px;
+  left: 187px;
+  width: 239px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_two {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: -80px;
+  width: 239px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_three {
+  display: flex;
+  position: absolute;
+  top: 220px;
+  right: -150px;
+  width: 200px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_four {
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  right: -100px;
+  width: 200px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_six {
+  display: flex;
+  position: absolute;
+  bottom: 80px;
+  left: -100px;
+  width: 162px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_seven {
+  display: flex;
+  position: absolute;
+  top: 250px;
+  left: -140px;
+  width: 162px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_eight {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: -80px;
+  width: 162px;
+  text-align: center;
+  visibility: hidden;
+}
+
+.test__image-description_visible {
+  visibility: visible;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #223867;
+}
